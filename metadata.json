@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Organizador de Equipe - 40 Nomes",
+  "description": "Recriação da tela de gerenciamento de equipe e raide com 8 times de 5 slots (40 vagas), tabela lateral de participantes e organização com drag and drop.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

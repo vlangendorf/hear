@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom slick scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.5);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.8);
+}
+
+/* Parchment Medieval RPG Theme Styling */
+.parchment-wood-bg {
+  background-color: #160e08;
+  background-image:
+    radial-gradient(ellipse at 50% 15%, rgba(184, 134, 11, 0.12) 0%, transparent 60%),
+    radial-gradient(circle at 10% 80%, rgba(139, 69, 19, 0.08) 0%, transparent 40%),
+    repeating-linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.35) 0px,
+      rgba(0, 0, 0, 0.35) 1px,
+      rgba(45, 28, 16, 0.2) 2px,
+      transparent 3px,
+      transparent 45px
+    ),
+    linear-gradient(to bottom, #1a1009 0%, #130a05 100%);
+}
+
+.parchment-surface {
+  background: linear-gradient(180deg, #fdf6e7 0%, #f7ebce 30%, #ecd7b2 85%, #dfc394 100%);
+  border: 2px solid #8e622f;
+  box-shadow:
+    inset 0 0 35px rgba(120, 80, 35, 0.22),
+    inset 0 0 8px rgba(78, 48, 17, 0.3),
+    0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.parchment-card {
+  background: linear-gradient(180deg, #fffcf5 0%, #fbf3e0 100%);
+  border: 1px solid #cca877;
+  box-shadow:
+    inset 0 0 14px rgba(160, 115, 60, 0.1),
+    0 3px 6px rgba(40, 25, 12, 0.15);
+}
+
+.parchment-scroll-roll {
+  background: linear-gradient(90deg, #573315 0%, #9e6c38 20%, #ddaf6d 50%, #9e6c38 80%, #573315 100%);
+  box-shadow: inset 0 2px 4px rgba(255, 255, 255, 0.25), 0 3px 8px rgba(0, 0, 0, 0.6);
+}
+
+.font-medieval {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
